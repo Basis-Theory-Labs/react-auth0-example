@@ -51,7 +51,7 @@ export const PasswordRecovery = ({ email, setEmail }: Props): JSX.Element => {
           sx={{ ml: 1 }}
           underline="hover"
         >
-          <Typography variant="bodyBold1">{'Sign In'}</Typography>
+          <Typography variant="body1">{'Sign In'}</Typography>
         </Link>
       </Box>
     </>

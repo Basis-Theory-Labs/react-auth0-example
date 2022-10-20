@@ -10,11 +10,11 @@ export const Content = (): JSX.Element => {
   const [email, setEmail] = useState('');
 
   return (
-    <Container 
-      component="main" 
-      maxWidth="md"
-    >
-      <Card variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
+    <Container component="main" maxWidth="md">
+      <Card
+        variant="outlined"
+        sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}
+      >
         {mode === 'signUp' ? (
           <SignUp email={email} setEmail={setEmail} />
         ) : (

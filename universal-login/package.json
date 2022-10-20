@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.10",
+    "@basis-theory/eslint-config": "^1.0.13",
     "@parcel/optimizer-data-url": "2.7.0",
     "@parcel/transformer-inline-string": "2.7.0",
     "@types/auth0-js": "^9.14.6",
@@ -43,6 +44,7 @@
     "process": "^0.11.10",
     "rimraf": "^3.0.2"
   },
+  "prettier": "@basis-theory/eslint-config/prettier",
   "engines": {
     "node": ">=16.x"
   },

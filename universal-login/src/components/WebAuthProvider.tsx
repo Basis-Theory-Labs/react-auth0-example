@@ -25,7 +25,7 @@ type SignUp = (attrs: {
   givenName: string;
   familyName: string;
 }) => void;
-type ChangePassword = ({ email: string }) => void;
+type ChangePassword = ({ email }) => void;
 type Alert = {
   severity: 'error' | 'success';
   message: string;

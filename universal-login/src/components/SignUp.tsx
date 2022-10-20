@@ -7,7 +7,7 @@ import {
   TextField,
   Typography,
 } from '@mui/material';
-import { htmlEncode } from "js-htmlencode";
+import { htmlEncode } from 'js-htmlencode';
 import { SocialSignIn } from './SocialSignIn';
 import { WebAuthAlert } from './WebAuthAlert';
 import { useWebAuth } from './WebAuthProvider';
@@ -32,7 +32,7 @@ export const SignUp = ({ email, setEmail }: Props): JSX.Element => {
       </Typography>
       <SocialSignIn />
       <Divider sx={{ mt: 3 }}>
-        <Typography color="text.secondary" variant="body3">
+        <Typography color="text.secondary" variant="body2">
           {'or sign up with'}
         </Typography>
       </Divider>
@@ -104,7 +104,7 @@ export const SignUp = ({ email, setEmail }: Props): JSX.Element => {
           sx={{ ml: 1 }}
           underline="hover"
         >
-          <Typography variant="bodyBold1">{'Sign In'}</Typography>
+          <Typography variant="body1">{'Sign In'}</Typography>
         </Link>
       </Box>
     </>

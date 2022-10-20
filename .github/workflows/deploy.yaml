@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  deploy-dev:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Download files from the current repository

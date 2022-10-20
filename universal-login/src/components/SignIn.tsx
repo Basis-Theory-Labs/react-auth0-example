@@ -37,7 +37,7 @@ export const SignIn = ({ email, setEmail }: Props): JSX.Element => {
       </Typography>
       <SocialSignIn />
       <Divider sx={{ mt: 3 }}>
-        <Typography color="text.secondary" variant="body3">
+        <Typography color="text.secondary" variant="body2">
           {'or sign in with'}
         </Typography>
       </Divider>
@@ -60,11 +60,7 @@ export const SignIn = ({ email, setEmail }: Props): JSX.Element => {
               onClick={() => setMode('resetPassword')}
               underline="hover"
             >
-              <Typography
-                component="span"
-                sx={{ ml: 2 }}
-                variant="bodyMedium2"
-              >
+              <Typography component="span" sx={{ ml: 2 }} variant="body2">
                 {'Forgot?'}
               </Typography>
             </Link>
@@ -106,7 +102,7 @@ export const SignIn = ({ email, setEmail }: Props): JSX.Element => {
           sx={{ ml: 1 }}
           underline="hover"
         >
-          <Typography variant="bodyBold1">{'Sign Up'}</Typography>
+          <Typography variant="body1">{'Sign Up'}</Typography>
         </Link>
       </Box>
     </>

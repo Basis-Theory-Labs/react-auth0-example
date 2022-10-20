@@ -1,4 +1,9 @@
-import { responsiveFontSizes, alpha, createTheme, ThemeOptions } from '@mui/material';
+import {
+  responsiveFontSizes,
+  alpha,
+  createTheme,
+  ThemeOptions,
+} from '@mui/material';
 
 const defaultContrastText = '#070A1B';
 const grey = {
@@ -22,8 +27,8 @@ const theme: ThemeOptions = {
   typography: {
     fontFamily: ['sans-serif', 'Inter'].join(', '),
     button: {
-      textTransform: 'none'
-    }
+      textTransform: 'none',
+    },
   },
   palette: {
     mode: 'dark',
@@ -32,7 +37,6 @@ const theme: ThemeOptions = {
       dark: '#00A0BC',
       light: '#38EDF8',
       contrastText: alpha('#000', 0.87),
-      gradient: 'linear-gradient(135deg, #654DFF 0%, #00D2EF 45.31%, #18EBB4 100%)',
     },
     background: {
       default: defaultContrastText,
@@ -42,6 +46,4 @@ const theme: ThemeOptions = {
   },
 };
 
-export default responsiveFontSizes(
-  createTheme(theme)
-);
+export default responsiveFontSizes(createTheme(theme));
