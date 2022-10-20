@@ -5,11 +5,17 @@ This example application shows how to build and deploy a React application as th
 ## Getting Started in Auth0
 1. Create a new Machine-to-Machine Application
 2. Select the `Auth0 Management API`
-3. Select permissions `read:branding`, `update:branding`, and `delete:branding`
+3. Select permissions:
+   * `read:clients`
+   * `update:clients`
+   * `update:client_keys`
+   * `read:branding`
+   * `update:branding`
+   * `delete:branding`
 4. Copy the following values as environment variables in your CI/CD pipeline:
-   1. Domain - `AUTH0_DOMAIN`
-   2. Client ID - `AUTH0_CLIENT_ID`
-   3. Client Secret - `AUTH0_CLIENT_SECRET`
+   * Domain - `AUTH0_DOMAIN`
+   * Client ID - `AUTH0_CLIENT_ID`
+   * Client Secret - `AUTH0_CLIENT_SECRET`
 5. To customize the secret names, edit [`./scripts/deploy-auth0-config.sh`](./scripts/deploy-auth0-config.sh)
 
 ## Auth0
