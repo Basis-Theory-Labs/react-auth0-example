@@ -27,7 +27,7 @@
     "lint:fix": "eslint . --fix --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.10",
+    "@babel/core": "^7.19.6",
     "@basis-theory/eslint-config": "^1.0.13",
     "@parcel/optimizer-data-url": "2.7.0",
     "@parcel/transformer-inline-string": "2.7.0",
