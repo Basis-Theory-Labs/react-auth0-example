@@ -33,7 +33,7 @@
     "@parcel/transformer-inline-string": "2.7.0",
     "@types/auth0-js": "^9.14.6",
     "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
+    "@types/node": "^18.11.8",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "@types/react-lottie": "^1.2.6",
