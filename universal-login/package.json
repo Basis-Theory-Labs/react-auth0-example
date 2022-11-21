@@ -37,7 +37,7 @@
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "@types/react-lottie": "^1.2.6",
-    "eslint": "^7.32.0",
+    "eslint": "^8.28.0",
     "parcel": "^2.7.0",
     "prettier": "^2.6.1",
     "pretty-quick": "^3.1.3",
